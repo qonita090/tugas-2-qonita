@@ -1,0 +1,20 @@
+import 'package:flutter/material.dart';
+
+class Hello extends StatefulWidget {
+  const Hello({super.key});
+
+  @override
+  State<Hello> createState() => _HelloState();
+}
+
+class _HelloState extends State<Hello> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text("hello word"),
+      backgroundColor: Colors.blue),
+      body: Text("saya lagi belajar flutter"),
+      backgroundColor: Colors.amber,
+    );
+  }
+}
