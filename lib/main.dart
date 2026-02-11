@@ -2,8 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/baris.dart';
 import 'package:flutter_application_1/bariskolom2.dart';
 import 'package:flutter_application_1/barisxkolom.dart';
+import 'package:flutter_application_1/belajaricon.dart';
+import 'package:flutter_application_1/belajartext.dart';
+import 'package:flutter_application_1/gabungan.dart';
+import 'package:flutter_application_1/gambar.dart';
 import 'package:flutter_application_1/hello.dart';
 import 'package:flutter_application_1/column.dart';
+import 'package:flutter_application_1/kontainerku.dart';
 
 
 
@@ -24,7 +29,7 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.deepPurple,
         ),
       ),
-      home: bariskolom2 (),
+      home: Gabungkan(),
     );
   }
 }
